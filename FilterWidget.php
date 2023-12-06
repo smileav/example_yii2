@@ -36,6 +36,7 @@ class FilterWidget extends Widget
      */
     public function run()
     {
+    	fjfjfjf
         $priceRange = (new Query())->select([
             'MIN(floor(product.price)) AS min_price',
             'MAX(ceil(product.price)) AS max_price',
